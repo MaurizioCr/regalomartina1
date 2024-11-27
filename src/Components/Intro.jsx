@@ -21,7 +21,7 @@ const Intro = () => {
           <Col>
             <h1>Buon Natale, Martina! 🎄</h1>
             <p>Ho preparato un regalo speciale per te ma... sarai tu a sceglierlo!</p>
-            <Button onClick={() => navigate("/scelta-meta")} variant="danger" size="lg">
+            <Button onClick={() => navigate("/Chisei")} variant="danger" size="lg">
               Inizia
             </Button>
           </Col>
