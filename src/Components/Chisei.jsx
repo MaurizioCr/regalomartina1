@@ -25,7 +25,7 @@ const Chisei = () => {
             <Button className="me-3" onClick={() => navigate("/Chisei")} variant="danger" size="lg">
               Si
             </Button>
-            <Button onClick={() => navigate("/Chisei")} variant="danger" size="lg">
+            <Button onClick={() => navigate("/NonSeiMartina")} variant="danger" size="lg">
               No
             </Button>
             
