@@ -21,8 +21,8 @@ const ProvaCheSeiMartina = () => {
           <Col>
             <h1>Dimostrami che sei davvero Martina...</h1>
             <p>Sei pronta?</p>
-            <Button onClick={() => navigate("/Chisei")} variant="danger" size="lg">
-              Inizia
+            <Button onClick={() => navigate("/q1")} variant="danger" size="lg">
+              Iniziamo -&gt;
             </Button>
           </Col>
         </Row>

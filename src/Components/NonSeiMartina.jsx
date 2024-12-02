@@ -1,9 +1,10 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import grinch from "../Assets/grinch.jpeg";
 
-const Intro = () => {
-
+const NonSeiMartina = () => {
+  const navigate = useNavigate();
 
   return (
     <div
@@ -17,9 +18,11 @@ const Intro = () => {
     >
       <Container>
         <Row>
-          <Col className="text-danger">
-            <h1>FERMA QUI! NON TI LASCERO' ROVINARE IL NATALE DI MARTINA!! 🎄</h1>
-            
+          <Col>
+            <h1>FERMA QUI! NON TI LASCERO' ROVINARE IL NATALE!! 🎄</h1>
+            <Button onClick={() => navigate("/")} variant="danger" size="lg">
+              Torna alla Home
+            </Button>
           </Col>
         </Row>
       </Container>
@@ -27,4 +30,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default NonSeiMartina;
