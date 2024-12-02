@@ -22,7 +22,7 @@ const Chisei = () => {
           <Col>
             <h1>Per prima cosa... sei tu Martina? 🎄</h1>
             
-            <Button className="me-3" onClick={() => navigate("/Chisei")} variant="danger" size="lg">
+            <Button className="me-3" onClick={() => navigate("/ProvaCheSeiMartina")} variant="danger" size="lg">
               Si
             </Button>
             <Button onClick={() => navigate("/NonSeiMartina")} variant="danger" size="lg">
