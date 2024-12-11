@@ -19,7 +19,7 @@ const Success = () => {
       <Container>
         <Row>
           <Col>
-            <h1>🎉 Complimenti, hai completato il quiz! 🎉</h1>
+            <h1>🎉 Complimenti, hai dimostrato di essere davvero Martina, ti meriti un po' di cioccolata fondente! 🎉</h1>
             <Button onClick={() => navigate("/")} variant="success" size="lg">
               Torna alla Home
             </Button>
