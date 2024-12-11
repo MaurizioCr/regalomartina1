@@ -21,7 +21,7 @@ const Success = () => {
           <Col>
             <h1>🎉 Complimenti, hai dimostrato di essere davvero Martina, ti meriti un po' di cioccolata fondente! 🎉</h1>
             <Button onClick={() => navigate("/SeiMartina")} variant="success" size="lg">
-              Torna alla Home
+              Avanziamo
             </Button>
           </Col>
         </Row>

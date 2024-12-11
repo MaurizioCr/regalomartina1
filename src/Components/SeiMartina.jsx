@@ -20,9 +20,11 @@ const Success = () => {
         <Row>
           <Col>
             <h1>🎉 Adesso è il momento di scoprire il tuo regalo..Sei pronta? 🎉</h1>
-            <Button onClick={() => navigate("/")} variant="SeiMartina" size="lg">
+            <a href="https://www.ryanair.com/it/it/trip/manage">
+            <Button variant="success" size="lg">
               Scopri il regalo
             </Button>
+            </a>
           </Col>
         </Row>
       </Container>
