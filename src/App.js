@@ -4,6 +4,7 @@ import Intro from "./Components/Intro";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Chisei from "./Components/Chisei";
 import NonSeiMartina from "./Components/NonSeiMartina";
+import SeiMartina from "./Components/SeiMartina";
 import ProvaCheSeiMartina from "./Components/ProvaCheSeiMartina";
 import DynamicQuestion from "./Components/Quiz";
 import Success from "./Components/Success";
@@ -57,6 +58,7 @@ const App = () => {
         ))}
         <Route path="/NonSeiMartina" element={<NonSeiMartina />} />
         <Route path="/success" element={<Success />} />
+        <Route path="/SeiMartina" element={<SeiMartina />} />
       </Routes>
     </Router>
   );
