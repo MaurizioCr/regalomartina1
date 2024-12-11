@@ -19,9 +19,9 @@ const Success = () => {
       <Container>
         <Row>
           <Col>
-            <h1>🎉 Complimenti, hai dimostrato di essere davvero Martina, ti meriti un po' di cioccolata fondente! 🎉</h1>
+            <h1>🎉 Adesso è il momento di scoprire il tuo regalo..Sei pronta? 🎉</h1>
             <Button onClick={() => navigate("/")} variant="SeiMartina" size="lg">
-              Torna alla Home
+              Scopri il regalo
             </Button>
           </Col>
         </Row>
