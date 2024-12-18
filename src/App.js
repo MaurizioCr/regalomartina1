@@ -9,6 +9,8 @@ import ProvaCheSeiMartina from "./Components/ProvaCheSeiMartina";
 import DynamicQuestion from "./Components/Quiz";
 import Success from "./Components/Success";
 import bg from "./Assets/bg.jpeg";
+import './App.css'
+import Snowflakes from "./Components/Snowflake";
 
 
 const App = () => {
@@ -33,10 +35,10 @@ const App = () => {
     },
     {
       path: "/q3",
-      question: "Quale città ti piace di più?",
+      question: "Ti piacerebbe visitare una nuova città?",
       options: [
-        { label: "Barcellona", path: "/NonSeiMartina" },
-        { label: "Praga", path: "/success", isCorrect: true },
+        { label: "No", path: "/NonSeiMartina" },
+        { label: "Si", path: "/success", isCorrect: true },
       ],
       background: bg,
     },
@@ -44,7 +46,10 @@ const App = () => {
 
   return (
     <Router>
-      <Routes>       
+      <div className="snowflakes">
+      <Snowflakes />
+    </div>    
+      <Routes>   
         <Route path="/" element={<Intro />} />
         <Route path="/chisei" element={<Chisei />} />
         <Route path="/ProvaCheSeiMartina" element={<ProvaCheSeiMartina />} />        
