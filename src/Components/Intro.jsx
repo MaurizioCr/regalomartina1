@@ -20,7 +20,7 @@ const Intro = () => {
         <Row>
           <Col>
             <h1>Buon Natale, Martina! 🎄</h1>
-            <p>Ho preparato un regalo speciale per te ma... sarai tu a sceglierlo!</p>
+            <p>Ho preparato un regalo speciale per te... spero ti piaccia!</p>
             <Button onClick={() => navigate("/Chisei")} variant="danger" size="lg">
               Inizia
             </Button>

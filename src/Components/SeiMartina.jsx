@@ -20,7 +20,7 @@ const Success = () => {
         <Row>
           <Col>
             <h1>🎉 Adesso è il momento di scoprire il tuo regalo..Sei pronta? 🎉</h1>
-            <a href="https://www.ryanair.com/it/it/trip/manage">
+            <a href="https://www.ryanair.com/it/it/trip/manage/e25d6cdd-46f9-428e-9b3c-2562e2fe0369">
             <Button variant="success" size="lg">
               Scopri il regalo
             </Button>
